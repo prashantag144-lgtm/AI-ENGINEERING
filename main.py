@@ -327,4 +327,41 @@ greet(name)
  """
 
 
+""" LIST """
+
+""" Print positive and negative elements of an List? """
+
+""" num=[1,2,4,4,2,5,3,2,5]
+nums1=[]
+nums2=[]
+for i in num:
+    if(num[i]%2==0):
+        nums1.append(num[i])
+    else:
+        nums2.append(num[i])
+
+
+print(nums1,nums2) """
+
+
+""" Mean of List elements? """
+
+""" nums=[1,2,4,4,2,5,3,2,5]
+sum=0
+n=len(nums)
+
+for i in nums:
+    sum+=nums[i]
+
+print(sum//n)
+ """
+
+""" Find the greatest element and print its index too? """
+
+""" nums=[1,2,4,4,2,5,3,2,5]
+maxi=-1
+for i in nums:
+    maxi=max(maxi,nums[i])
+
+print(f"The maximum element is {maxi} and the index is {nums.index(maxi)}") """
 
