@@ -365,3 +365,18 @@ for i in nums:
 
 print(f"The maximum element is {maxi} and the index is {nums.index(maxi)}") """
 
+
+
+""" Check if List is sorted or not. """
+
+""" nums=[2,4,5,6,7,8]
+for i in range(0,len(nums)-1):
+    if(nums[i]>nums[i+1]):
+        print("This list is unsorted")
+        break
+    else:
+        continue
+        
+
+ """
+
