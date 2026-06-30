@@ -462,10 +462,81 @@ print(a) """
 
 """ Write a python dictionary to merge dictionary """
 
-a={1:100,2:200,3:300,4:400,5:500}
+""" a={1:100,2:200,3:300,4:400,5:500}
 b={13:1300,4:400,3:300,4:400,2:200,6:6000}
 
 
 for i in b:
     a[i]=b[i]
 
+ """
+
+""" Write a Python program to sum all the values in a dictionary? """
+
+""" d={1:100,2:200,3:300,4:400,5:500}
+sum=0
+for i in d:
+    sum+=d[i]
+
+print(sum) """
+
+""" Count the frequency of each element """
+
+""" d={1:100,2:200,3:300,4:400,5:500,5:300,6:300}
+temp={}
+for i in d.values():
+    if(i not in temp):
+        temp[i]=d[i]
+    else:
+        print(f"The given number {d[i]} is a duplicate number") """
+
+
+""" Write a Python program to combine two dictionary by adding
+values for common keys. """
+
+""" d={1:100,2:200,3:300,4:400}
+d1={1:300,4:400,6:600,3:100,2:200}
+
+for i in d:
+    d[i]=d1[i]
+    d[i]=d[i]+d1[i]
+
+print(d)
+ """
+
+""" EXCEPTIONAL HANDLING """
+
+""" a=int(input("enter a number"))
+
+try:
+    print(10//a)
+except ZeroDivisionError:
+    print("there is a zero division error")
+
+
+print("this line is executed sucesfully")
+
+ """
+
+""" a=int(input("enter a number"))
+try:
+    print(10//a)
+except Exception as err:
+    print(f"there is an excetion called {err}")
+
+ """
+
+""" FILE HANDLING """
+
+""" f=open(r'file.txt')
+print(f.read()) """
+
+""" p=open('main.py')
+print(p.read())
+ """
+
+""" p=open('superman.txt','a')
+p.write("hello this is prashanth ,and i am writing inside this file") 
+p.write("and i am appending something other stuffs inside this file") 
+
+ """
