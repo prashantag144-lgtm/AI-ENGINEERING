@@ -380,3 +380,92 @@ for i in range(0,len(nums)-1):
 
  """
 
+""" TUPLES """
+
+""" Tuples are hetergoenus in nature , means all the datatypes or some other functions and all can be include in the tuple 
+    Tuples are immutable in nature and can have duplcates in this """
+
+""" a=(1,2,3,4,2,4,print("hello"),'a','b','b','c','v')
+
+print(a.count(2))
+print(a.index(4))
+ """
+
+""" SETS """
+
+""" s={1,2,4,3,2,5}
+
+s.add(10)
+s.remove(2)
+s.discard(5)
+s.pop() #removes arandom elements
+
+for i in s:
+    print(i) """
+
+
+""" a={1,2,3,4,3}
+b={1,2,4,5,6}
+
+s=a.union(b)
+b=a.intersection(b)
+print(s,b) """
+
+
+""" DICTIONARY """
+
+""" d={1:"hello",2:3,4:"world",5:"prashanth","hello":"hello"}
+print(d)
+print(type(d)) """
+
+""" d={1:2,3:4,4:5,6:6}
+d[2]=33
+d.update({50:500}) #the one way of updating/creating the value the value
+print(d) """
+
+""" print(d[1])
+for i in d:
+    print(i) """
+
+""" LOOPS IN DICTIONARY """
+
+""" a=[10,20,30,40,50,60]
+d={1:2,3:4,4:5,6:6}
+for i in d:
+    print(i)
+
+for i in d:
+    print(d[i]) """
+
+
+
+
+""" d={1:200,3:400,4:500,6:600} 
+d.clear()
+ """
+
+""" a=[1,2,4,5,4,3]
+b=a
+b[0]=100
+print(a)
+
+This is the deep copy
+ """
+""" Shallow copy """
+
+""" a=[1,2,4,5,4,3]
+b=a.copy()
+b[2]=200
+print(b)
+print(a) """
+
+
+""" Write a python dictionary to merge dictionary """
+
+a={1:100,2:200,3:300,4:400,5:500}
+b={13:1300,4:400,3:300,4:400,2:200,6:6000}
+
+
+for i in b:
+    a[i]=b[i]
+
