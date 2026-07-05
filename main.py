@@ -540,3 +540,14 @@ p.write("hello this is prashanth ,and i am writing inside this file")
 p.write("and i am appending something other stuffs inside this file") 
 
  """
+
+
+ """ DECORATOR """
+
+class Animal:
+    def hello():
+        print("this is the method")
+
+
+obj=Animal()
+obj.hello()
